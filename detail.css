@@ -1,0 +1,404 @@
+.label{
+    font-size: 10px;
+}
+
+.span{
+
+    padding: 5px 6px;
+    font-size: 13px;
+}
+
+.quantity{
+    font-size: 15px;
+}
+
+
+   
+
+
+.color{
+
+    background-color:rgb(14, 29, 50);
+    padding: 0px 32px;
+    
+}
+
+.color1{
+    color: rgb(238, 62, 39);
+    font-size: 20px;
+    padding: 13px 15px 8px;
+}
+
+
+a:hover{
+    color: white;
+    background-color: none;
+}
+
+.position{
+
+    justify-content: center;
+    
+}
+
+
+.card-header{
+    background-color: white;
+    border:none;
+    font-size: 30px;
+    margin-top: 30px;
+    
+}
+
+.card-footer{
+    background-color: white;
+    border:none;
+    width: 10px;
+    height: 10px;
+}
+
+
+
+.card-body{
+    border:none;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: bold;
+}
+
+.card{
+    border:none;
+    margin: 10px;
+    
+}
+
+
+
+.site-footer {
+    font-size: 11px;
+    font-weight: 400;
+    padding: 10px 0 50px;
+    background-color: transparent;
+    color: #000;
+}   
+
+*, input, :before, :after {
+    box-sizing: border-box;
+}
+
+footer {
+    display: block;
+}
+
+.footer-container {
+    margin-top: 60px;
+    padding: 0 30px;
+}
+
+div {
+    display: block;
+}
+
+.footer-social {
+    text-align: center;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+}
+
+.footer-social a {
+    padding: 1rem;
+    color: #000000;
+}
+
+.site-footer a {
+    display: inline-block;
+    position: relative;
+    padding: 0 15px;
+}
+
+a, .text-link {
+    color: #000;
+    text-decoration: none;
+    background: transparent;
+}
+
+
+a {
+    transition: color 0.2s ease-in 0s;
+}
+
+
+
+.footer-social a i {
+    font-size: 1.4rem;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.footer-social a {
+    padding: 1rem;
+    color: #000000;
+}
+
+.footer-logo {
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+
+.footer-text .copyright {
+    display: block;
+}
+.footer-text {
+    text-align: center;
+    line-height: 30px;
+}
+
+.footer-text .footer-links {
+    display: inline-block;
+}
+
+.site-footer a {
+    display: inline-block;
+    position: relative;
+    padding: 0 15px;
+}
+.site-footer a {
+    color: #000;
+}
+
+a, .text-link {
+    color: #000;
+    text-decoration: none;
+    background: transparent;
+}
+
+a, a:hover, a:active, a:focus, button, button:hover, button:active, button:focus, input[type=button]:focus {
+    outline: none;
+}
+
+a {
+    transition: color 0.2s ease-in 0s;
+}
+
+@media screen and (min-width: 769px){
+.site-footer .footer-text .footer_link:after {
+    content: "";
+    background: #939598;
+    width: 1px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+}
+
+script {
+    display: none;
+}
+
+
+.icons a:hover {
+    color: #fcd510;
+}
+
+.cart-container {
+    margin-left: 1rem;
+    top: 0;
+    position: relative;
+    position: absolute;
+    right: 0;
+    transition: top 0.2s ease 0s;
+}
+
+.cart-container a {
+    color: #fcd510;
+}
+
+.cart-container a.site-header__cart-toggle {
+    padding: 1rem 0.7rem;
+}
+
+.site-header__cart-toggle {
+    display: inline-block;
+    font-size: .8em;
+}
+
+.nav-bar .cart-container a.site-header__cart-toggle #CartCount.compact {
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    height: 16px;
+    padding: 0 5px;
+    font-size: 11px;
+    line-height: 16px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    font-family: Helvetica, sans-serif;
+    transition: background-color 0.1s ease-out 0s;
+}
+
+
+
+.cart-container a svg {
+    fill: #fcd510;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    top: 3px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+svg [Attributes Style] {
+    x: 0px;
+    y: 0px;
+}
+
+.slide-container {
+   
+   
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+body {
+    line-height: 1.1;
+    font-family: "custom-font_light", Arial, Helvetica, Sans-Serif;
+    font-size: 12px;
+}
+
+
+.grid, .grid--rev, .grid--full, .grid-uniform {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.product-single label {
+    float: left;
+    line-height: 2.8em;
+    margin-right: 1em;
+    font-size: 0.8em;
+}
+
+label[for] {
+    cursor: pointer;
+}
+
+.js-qty, .ajaxcart__qty {
+    position: relative;
+    margin-bottom: 1em;
+    min-width: 75px;
+    overflow: visible;
+}
+
+.js-qty input, .ajaxcart__qty input {
+    display: inline-block;
+    background: #fff;
+    color: #454545;
+    font-family: "custom-font",Arial,Helvetica,Sans-Serif;
+    text-align: center;
+    width: 35px;
+    padding: 5px 0;
+    margin: 0;
+    border: 0;
+}
+
+.js-qty__adjust, .ajaxcart__qty-adjust {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 4px 8px;
+    background: transparent;
+    color: #000;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.1s ease 0s;
+    
+    user-select: none;
+    
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+.supports-fontface .icon-fallback-text .icon {
+    display: inline-block;
+}
+
+.visually-hidden, .supports-fontface .icon-fallback-text .fallback-text {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.js-qty__adjust--plus, .ajaxcart__qty--plus {
+    margin-left: -6px;
+}
+
+
+.btn, .btn--secondary, .rte .btn--secondary, .email-popup-block .email-popup form input[type=submit], .rte .btn, .rte .btn--secondary, .rte .email-popup-block .email-popup form input[type=submit], .email-popup-block .email-popup form .rte input[type=submit] {
+    display: inline-block;
+    padding: 8px 10px;
+    width: auto;
+    margin: 0;
+    line-height: 1.42;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 2px solid transparent;
+    user-select: none;
+    border-radius: 0;
+    transition: all 0.2s ease-in 0s;
+    font-family: "custom-font",Arial,Helvetica,Sans-Serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+}
+button {
+    background: none;
+    overflow: visible;
+}
+
+.btn:hover, .btn--secondary:hover, .email-popup-block .email-popup form input[type=submit]:hover, .btn:active, .btn--secondary:active, .email-popup-block .email-popup form input[type=submit]:active, .btn:focus, .btn--secondary:focus, .email-popup-block .email-popup form input[type=submit]:focus, .rte .btn:hover, .rte .btn--secondary:hover, .rte .email-popup-block .email-popup form input[type=submit]:hover, .email-popup-block .email-popup form .rte input[type=submit]:hover, .rte .btn:active, .rte .btn--secondary:active, .rte .email-popup-block .email-popup form input[type=submit]:active, .email-popup-block .email-popup form .rte input[type=submit]:active, .rte .btn:focus, .rte .btn--secondary:focus, .rte .email-popup-block .email-popup form input[type=submit]:focus, .email-popup-block .email-popup form .rte input[type=submit]:focus {
+    background-color: #fcd510;
+    color: #000;
+    border-color: transparent;
+}
+
+.guide:hover{
+
+    color: #fcd510;
+}
+hr{
+    height: 0.2px;
+    background-color: black;
+}
